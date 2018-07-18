@@ -1,0 +1,49 @@
+ *{
+ 	margin: 0px;
+ 	padding: 0px;
+ }
+ body
+ {
+   cursor: url(parashut2.cur), auto;
+	/*cursor: none; */
+	background-color: #778cbb;
+	background: url(img/shttefan-294119-unsplash.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	max-width: 100%;
+	max-height: 100%;
+ }
+
+#bg-img{
+	background: url(img/bg3.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 300px;
+	background-repeat: repeat-x;
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+	left: 0px;
+	z-index: 30;
+}
+#met1, #met2, #met3, #met4, #met5, #met6, #met7, #met8{
+	position: absolute;
+	bottom: calc(100vh + 50px);
+	left: 40%;
+	height: 64px;
+	width: 64px;
+	z-index: 20;
+}
+.notClick{
+	background: url(img/tiles.png);
+	background-position: 0px -64px;
+	-webkit-background-size: 500px;
+	background-size: 500px;
+
+}
+.isClick{
+	background: url(img/tiles.png);
+    background-position: 0px -115px;
+    -webkit-background-size: 400px;
+    background-size: 400px;
+}
